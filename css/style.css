@@ -1,0 +1,107 @@
+body{
+    margin:0;
+    text-align: center;
+    background-color: #080b30;
+    color:#d2d434;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #d2d434;
+    border-width: 5px;
+    
+    width:4%;
+}
+
+/* --------------------------------------for the top bar----------------------------------------------------*/
+.top_bar{
+    background-color: red;
+    margin-top: 0;
+    position:fixed;
+    top:0;
+    width: 100%;
+}
+.tahubusuk{
+    position:absolute;
+    padding-top: 1rem;
+    left:5%;
+    font-family: 'Fuggles', cursive;
+    font-size: 4rem;
+}
+.projects{
+    position:fixed;
+    left:58%;
+    padding: 2.25rem 3.5rem;
+    font-size: 1.5rem;
+}
+.projects:hover{
+    background-color: #d2d434;
+    color:#080b30;
+}
+.books{
+    position:fixed;
+    left:73%;
+    padding: 2.25rem 3.5rem;
+    font-size: 1.5rem;
+}
+.books:hover{
+    background-color: #d2d434;
+    color:#080b30;
+}
+.movies{
+    position:fixed;
+    padding: 2.25rem 3.5rem;
+    left:86%;
+    font-size: 1.5rem;
+}
+.movies:hover{
+    background-color: #d2d434;
+    color:#080b30;
+}
+
+/*---------------------------------------------------------top bar is over here------------------------------------------------------*/
+
+
+/*----------------------------------------------------for the index----------------------------------------*/
+
+.tofu_image{
+    margin:10rem 0 0 0;
+}
+.tofu_source{
+   font-size: 5pt;
+}
+.introduction{
+    top: 16rem;
+    right:17.5rem;
+    width: 100%;
+}
+.introduction_name{
+    font-family: 'Fuggles', cursive;
+    font-size: 500%;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+.introduction_describe{
+    font-size: 1rem;
+    margin-top:0;
+}
+    
+/*-----------------------------------index is over here----------------------------------------------------------*/
+
+/*---------------------------------------for the contact me---------------------------------------------------------*/
+.contact_me{
+    position:fixed;
+    bottom:0;
+    background-color: #d2d434;
+    color:blue;
+    width: 100%;
+
+}
+
+.contact_me_pic{
+    height:35px; 
+    width:auto;
+    padding: 10px 20px;
+}
+
+/*------------------------------------------contact me ends here-----------------------------------------------------*/
