@@ -21,15 +21,56 @@ hr{
     top:0;
     width: 100%;
 }
+nav ul{
+    list-style-type: none;
+}
+
+@media screen and (max-width:600px){
+    .hamburger_icon{
+        height:3rem;
+        width: auto;
+        position:absolute;
+        left:60%;
+        padding: 2.25rem 3rem;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:1024px){
+
+    .hamburger_icon{
+        height:3rem;
+        width: auto;
+        position:absolute;
+        left:80%;
+        padding: 2.25rem 3rem;
+    }
+}
+@media screen and (min-width:1024px) {
+    .small_screen{
+        display:none;
+    }
+    
+}
+@media screen and (max-width:1024px) {
+    .big_screen{
+        display:none;
+    }
+    
+}
+.hamburger_icon:hover{
+    background-color: #d2d434;
+}
 .tahubusuk{
     position:absolute;
+    display: inline-block;
     padding-top: 1rem;
     left:5%;
     font-family: 'Fuggles', cursive;
     font-size: 4rem;
 }
+
 .projects{
-    position:fixed;
+    position:absolute;
     left:58%;
     padding: 2.25rem 3.5rem;
     font-size: 1.5rem;
@@ -39,7 +80,7 @@ hr{
     color:#080b30;
 }
 .books{
-    position:fixed;
+    position:absolute;
     left:73%;
     padding: 2.25rem 3.5rem;
     font-size: 1.5rem;
@@ -49,7 +90,7 @@ hr{
     color:#080b30;
 }
 .movies{
-    position:fixed;
+    position:absolute;
     padding: 2.25rem 3.5rem;
     left:86%;
     font-size: 1.5rem;
