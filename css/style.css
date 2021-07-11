@@ -33,7 +33,15 @@ nav ul{
         left:60%;
         padding: 2.25rem 3rem;
     }
+    .neon_lights{ 
+        width: 120%; 
+        height:40%; 
+        position: absolute;
+        top:21.25%;
+        left:-10%;
+    }
 }
+
 
 @media screen and (min-width:600px) and (max-width:1024px){
 
@@ -44,10 +52,25 @@ nav ul{
         left:80%;
         padding: 2.25rem 3rem;
     }
+    .neon_lights{
+        width: 120%; 
+        height:40%; 
+        position: absolute;
+        top:21.25%;
+        left:-10%;
+    }
 }
 @media screen and (min-width:1024px) {
     .small_screen{
         display:none;
+    }
+
+    .neon_lights{
+        width: 80%; 
+        height:40%; 
+        position: absolute;
+        top:21.25%;
+        left:10%;
     }
     
 }
@@ -55,7 +78,7 @@ nav ul{
     .big_screen{
         display:none;
     }
-    
+
 }
 .hamburger_icon:hover{
     background-color: #d2d434;
@@ -107,14 +130,15 @@ nav ul{
 
 .tofu_image{
     margin:10rem 0 0 0;
-}
-.tofu_source{
-   font-size: 5pt;
+    height:275; 
+    width: auto;
 }
 .introduction{
     top: 16rem;
     right:17.5rem;
     width: 100%;
+    margin-bottom: 200px;
+    padding-top: 100px;
 }
 .introduction_name{
     font-family: 'Fuggles', cursive;
