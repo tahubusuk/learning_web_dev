@@ -35,16 +35,38 @@ nav ul{
     }
     .neon_lights{ 
         width: 120%; 
-        height:40%; 
+        height:50%; 
         position: absolute;
-        top:21.25%;
+        top:27.5%;
         left:-10%;
     }
 }
 
 
-@media screen and (min-width:600px) and (max-width:1024px){
+@media screen  and (max-width:1024px){
+    .big_screen{
+        display:none;
+    }
+    .hamburger_icon{
+        height:3rem;
+        width: auto;
+        position:absolute;
+        left:70%;
+        padding: 2.25rem 3rem;
+    }
+    .neon_lights{
+        width: 120%; 
+        height:50%; 
+        position: absolute;
+        top:27.5%;
+        left:-10%;
+    }
+}
 
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    .big_screen{
+        display:none;
+    }
     .hamburger_icon{
         height:3rem;
         width: auto;
@@ -52,33 +74,30 @@ nav ul{
         left:80%;
         padding: 2.25rem 3rem;
     }
+
     .neon_lights{
-        width: 120%; 
-        height:40%; 
+        width: 100%; 
+        height:50%; 
         position: absolute;
-        top:21.25%;
-        left:-10%;
+        top:26.25%;
+        left:0%;
     }
 }
-@media screen and (min-width:1024px) {
+
+
+@media screen and (min-width:1440px) {
     .small_screen{
         display:none;
     }
 
     .neon_lights{
         width: 80%; 
-        height:40%; 
+        height:50%; 
         position: absolute;
-        top:21.25%;
+        top:26.25%;
         left:10%;
     }
     
-}
-@media screen and (max-width:1024px) {
-    .big_screen{
-        display:none;
-    }
-
 }
 .hamburger_icon:hover{
     background-color: #d2d434;
@@ -102,23 +121,23 @@ nav ul{
     background-color: #d2d434;
     color:#080b30;
 }
-.books{
+.miscellaneous{
     position:absolute;
-    left:73%;
+    left:70%;
     padding: 2.25rem 3.5rem;
     font-size: 1.5rem;
 }
-.books:hover{
+.miscellaneous:hover{
     background-color: #d2d434;
     color:#080b30;
 }
-.movies{
+.contactme{
     position:absolute;
     padding: 2.25rem 3.5rem;
     left:86%;
     font-size: 1.5rem;
 }
-.movies:hover{
+.contactme:hover{
     background-color: #d2d434;
     color:#080b30;
 }
@@ -153,6 +172,19 @@ nav ul{
     
 /*-----------------------------------index is over here----------------------------------------------------------*/
 
+/*-----------------------------------about me----------------------------------------------------------*/
+
+.welcome{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 200px;
+}
+
+
+/*-----------------------------------about me----------------------------------------------------------*/
+
+
 /*---------------------------------------for the contact me---------------------------------------------------------*/
 .contact_me{
     position:fixed;
@@ -160,7 +192,6 @@ nav ul{
     background-color: #d2d434;
     color:blue;
     width: 100%;
-
 }
 
 .contact_me_pic{
