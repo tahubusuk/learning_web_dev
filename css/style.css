@@ -25,25 +25,38 @@ nav ul{
     list-style-type: none;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-height:480px){
+
+}
+
+
+
+
+
+
+@media screen and (max-width:576px){
+    .big_screen{
+        display:none;
+    }
     .hamburger_icon{
         height:3rem;
         width: auto;
         position:absolute;
-        left:60%;
-        padding: 2.25rem 3rem;
+        left:65%;
+        padding: 2.25rem 2.5rem;
     }
+
     .neon_lights{ 
         width: 120%; 
-        height:50%; 
+        height:40rem; 
         position: absolute;
-        top:27.5%;
+        top:15rem;
         left:-10%;
     }
 }
 
 
-@media screen  and (max-width:1024px){
+@media screen  and (min-width:576px) and (max-width:768px){
     .big_screen{
         display:none;
     }
@@ -54,16 +67,16 @@ nav ul{
         left:70%;
         padding: 2.25rem 3rem;
     }
-    .neon_lights{
+    .neon_lights{ 
         width: 120%; 
-        height:50%; 
+        height:35rem; 
         position: absolute;
-        top:27.5%;
+        top:15rem;
         left:-10%;
     }
 }
 
-@media screen and (min-width:1024px) and (max-width:1440px) {
+@media screen and (min-width:768px) and (max-width:992px) {
     .big_screen{
         display:none;
     }
@@ -75,27 +88,68 @@ nav ul{
         padding: 2.25rem 3rem;
     }
 
-    .neon_lights{
+    .neon_lights{ 
         width: 100%; 
-        height:50%; 
+        height:35rem; 
         position: absolute;
-        top:26.25%;
+        top:15rem;
         left:0%;
     }
 }
 
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .big_screen{
+        display:none;
+    }
+    .hamburger_icon{
+        height:3rem;
+        width: auto;
+        position:absolute;
+        left:80%;
+        padding: 2.25rem 3rem;
+    }
 
-@media screen and (min-width:1440px) {
+    .neon_lights{ 
+        width: 100%; 
+        height:35rem; 
+        position: absolute;
+        top:15rem;
+        left:0%;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1800px) {
+    .big_screen{
+        display:none;
+    }
+
+    .hamburger_icon{
+        height:3rem;
+        width: auto;
+        position:absolute;
+        left:80%;
+        padding: 2.25rem 3rem;
+    }
+    .neon_lights{ 
+        width: 100%; 
+        height:35rem; 
+        position: absolute;
+        top:15rem;
+        left:0%;
+    }
+    
+}
+@media screen and (min-width:1800px) {
     .small_screen{
         display:none;
     }
 
-    .neon_lights{
-        width: 80%; 
-        height:50%; 
+    .neon_lights{ 
+        width: 100%; 
+        height:35rem; 
         position: absolute;
-        top:26.25%;
-        left:10%;
+        top:15rem;
+        left:0%;
     }
     
 }
