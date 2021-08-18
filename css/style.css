@@ -13,6 +13,9 @@ hr{
     width:4%;
 }
 
+ul{
+    margin-top: 0;
+}
 /* --------------------------------------for the top bar----------------------------------------------------*/
 .top_bar{
     background-color: red;
@@ -25,11 +28,6 @@ nav ul{
     list-style-type: none;
 }
 
-@media screen and (max-height:480px){
-
-}
-
-
 
 
 
@@ -41,11 +39,15 @@ nav ul{
     .hamburger_icon{
         height:3rem;
         width: auto;
-        position:absolute;
-        left:65%;
         padding: 2.25rem 2.5rem;
     }
-
+    .container{
+        position: absolute;
+        left:65%;
+        width:0;
+        color: #080b30;
+        z-index: 1;
+    }
     .neon_lights{ 
         width: 120%; 
         height:40rem; 
@@ -63,9 +65,14 @@ nav ul{
     .hamburger_icon{
         height:3rem;
         width: auto;
-        position:absolute;
-        left:70%;
         padding: 2.25rem 3rem;
+    }
+    .container{
+        position: absolute;
+        left:70%;
+        width:0;
+        color: #080b30;
+        z-index: 1;
     }
     .neon_lights{ 
         width: 120%; 
@@ -83,9 +90,14 @@ nav ul{
     .hamburger_icon{
         height:3rem;
         width: auto;
-        position:absolute;
-        left:80%;
         padding: 2.25rem 3rem;
+    }
+    .container{
+        position: absolute;
+        left:80%;
+        width:0;
+        color: #080b30;
+        z-index: 1;
     }
 
     .neon_lights{ 
@@ -104,11 +116,15 @@ nav ul{
     .hamburger_icon{
         height:3rem;
         width: auto;
-        position:absolute;
-        left:80%;
         padding: 2.25rem 3rem;
     }
-
+    .container{
+        position: absolute;
+        left:80%;
+        width:0;
+        color: #080b30;
+        z-index: 1;
+    }
     .neon_lights{ 
         width: 100%; 
         height:35rem; 
@@ -126,9 +142,14 @@ nav ul{
     .hamburger_icon{
         height:3rem;
         width: auto;
-        position:absolute;
-        left:80%;
         padding: 2.25rem 3rem;
+
+    }.container{
+        position: absolute;
+        left:80%;
+        width:0;
+        color: #080b30;
+        z-index: 1;
     }
     .neon_lights{ 
         width: 100%; 
@@ -153,9 +174,52 @@ nav ul{
     }
     
 }
-.hamburger_icon:hover{
-    background-color: #d2d434;
+
+.neon_lights{
+    z-index: 0;
 }
+
+.container:hover {
+    background-color: #d2d434; 
+}
+.container:hover .dropdown-content{
+    display: block;
+
+}
+.container:hover .dropdown{
+    background-color:#d2d434 ;
+}   
+.dropdown{
+    height:7.5rem;
+    width: 9.75rem;
+}
+.hamburger_icon{
+    z-index: 1;
+}
+.dropdown-content{
+    display:none;
+    position:relative;
+    right:10.25rem;
+    margin-top: 0;
+    font-size: 1.5rem;
+    width: 20rem;
+    border-style: solid;
+    border-color: orange;
+    border-width: 0.25rem 0;
+}
+
+.content{
+    background-color:#d2d434 ;
+    padding: 1.5rem 1.5rem;
+    border-color: orange;
+    border-width: 0.25rem 0.5rem;
+    border-style: solid;
+}
+.content:hover{
+    background-color: #080b30;
+    color:#d2d434 ;
+}
+
 .tahubusuk{
     position:absolute;
     display: inline-block;
