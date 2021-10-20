@@ -1,0 +1,70 @@
+@media screen and (max-width:576px) {
+    .neonLights{
+        width: 120%;
+        height:40rem;
+        position: absolute;
+        top:15rem;
+        left:-10%;
+    }
+}
+
+@media screen  and (min-width:576px) and (max-width:768px) {
+    .neonLights{
+        width: 120%;
+        height:35rem;
+        position: absolute;
+        top:15rem;
+        left:-10%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .neonLights{
+        width: 100%;
+        height:35rem;
+        position: absolute;
+        top:15rem;
+        left:0%;
+    }
+}
+
+
+
+/*----------------------------------------------------for the index----------------------------------------*/
+
+.tofuImage{
+    margin:10rem 0 0 0;
+    height: 20rem;
+    width: auto;
+}
+.introduction{
+    top: 16rem;
+    right:17.5rem;
+    width: 100%;
+    margin-bottom: 200px;
+    padding-top: 100px;
+}
+.introductionName{
+    font-family: 'Fuggles', cursive;
+    font-size: 500%;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+.introductionDescribe{
+    font-size: 1rem;
+    margin-top:0;
+}
+    
+/*-----------------------------------index is over here----------------------------------------------------------*/
+
+/*-----------------------------------about me----------------------------------------------------------*/
+
+.welcome{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 200px;
+}
+
+
+/*-----------------------------------about me----------------------------------------------------------*/

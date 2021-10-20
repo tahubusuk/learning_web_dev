@@ -16,6 +16,7 @@ hr{
 ul{
     margin-top: 0;
 }
+
 /* --------------------------------------for the top bar----------------------------------------------------*/
 .top_bar{
     margin-top: 0;
@@ -32,10 +33,10 @@ a{
 }
 
 @media screen and (max-width:576px){
-    .big_screen{
+    .bigScreen{
         display:none;
     }
-    .hamburger_icon{
+    .hamburgerIcon{
         height:3rem;
         width: auto;
         padding: 2.25rem 2.5rem;
@@ -47,21 +48,14 @@ a{
         color: #080b30;
         z-index: 1;
     }
-    .neon_lights{ 
-        width: 120%; 
-        height:40rem; 
-        position: absolute;
-        top:15rem;
-        left:-10%;
-    }
 }
 
 
 @media screen  and (min-width:576px) and (max-width:768px){
-    .big_screen{
+    .bigScreen{
         display:none;
     }
-    .hamburger_icon{
+    .hamburgerIcon{
         height:3rem;
         width: auto;
         padding: 2.25rem 3rem;
@@ -73,20 +67,13 @@ a{
         color: #080b30;
         z-index: 1;
     }
-    .neon_lights{ 
-        width: 120%; 
-        height:35rem; 
-        position: absolute;
-        top:15rem;
-        left:-10%;
-    }
 }
 
 @media screen and (min-width:768px) and (max-width:992px) {
-    .big_screen{
+    .bigScreen{
         display:none;
     }
-    .hamburger_icon{
+    .hamburgerIcon{
         height:3rem;
         width: auto;
         padding: 2.25rem 3rem;
@@ -97,22 +84,14 @@ a{
         width:0;
         color: #080b30;
         z-index: 1;
-    }
-
-    .neon_lights{ 
-        width: 100%; 
-        height:35rem; 
-        position: absolute;
-        top:15rem;
-        left:0%;
     }
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
-    .big_screen{
+    .bigScreen{
         display:none;
     }
-    .hamburger_icon{
+    .hamburgerIcon{
         height:3rem;
         width: auto;
         padding: 2.25rem 3rem;
@@ -124,21 +103,14 @@ a{
         color: #080b30;
         z-index: 1;
     }
-    .neon_lights{ 
-        width: 100%; 
-        height:35rem; 
-        position: absolute;
-        top:15rem;
-        left:0%;
-    }
 }
 
 @media screen and (min-width:1200px) and (max-width:1800px) {
-    .big_screen{
+    .bigScreen{
         display:none;
     }
 
-    .hamburger_icon{
+    .hamburgerIcon{
         height:3rem;
         width: auto;
         padding: 2.25rem 3rem;
@@ -150,31 +122,14 @@ a{
         color: #080b30;
         z-index: 1;
     }
-    .neon_lights{ 
-        width: 100%; 
-        height:35rem; 
-        position: absolute;
-        top:15rem;
-        left:0%;
-    }
-    
 }
 @media screen and (min-width:1800px) {
-    .small_screen{
+    .smallScreen{
         display:none;
     }
-
-    .neon_lights{ 
-        width: 100%; 
-        height:35rem; 
-        position: absolute;
-        top:15rem;
-        left:0%;
-    }
-    
 }
 
-.neon_lights{
+.neonLights{
     z-index: 0;
 }
 
@@ -192,7 +147,7 @@ a{
     height:7.5rem;
     width: 9.75rem;
 }
-.hamburger_icon{
+.hamburgerIcon{
     z-index: 1;
 }
 .dropdown-content{
@@ -231,16 +186,16 @@ a{
     font-family: 'Fuggles', cursive;
     font-size: 4rem;
 }
-.aboutme{
+.aboutMe{
     position:absolute;
     left:58%;
     padding: 2.25rem 3.5rem;
     font-size: 1.5rem;
 }
-.aboutme:hover{
+.aboutMe:hover{
     background-color: #d2d434;
 }
-.aboutme:hover a{
+.aboutMe:hover a{
         color:#080b30;
 }
 .projects{
@@ -267,75 +222,17 @@ a{
 .blogs:hover a{
     color:#080b30;
 }
-.contactme{
+.contactMe{
     position:absolute;
     padding: 2.25rem 3.5rem;
     left:86%;
     font-size: 1.5rem;
 }
-.contactme:hover {
+.contactMe:hover {
     background-color: #d2d434;
 }
-.contactme:hover a{
+.contactMe:hover a{
     color:#080b30;
 }
 
 /*---------------------------------------------------------top bar is over here------------------------------------------------------*/
-
-
-/*----------------------------------------------------for the index----------------------------------------*/
-
-.tofu_image{
-    margin:10rem 0 0 0;
-    height:275; 
-    width: auto;
-}
-.introduction{
-    top: 16rem;
-    right:17.5rem;
-    width: 100%;
-    margin-bottom: 200px;
-    padding-top: 100px;
-}
-.introduction_name{
-    font-family: 'Fuggles', cursive;
-    font-size: 500%;
-    margin-bottom: 0;
-    margin-top: 1rem;
-}
-.introduction_describe{
-    font-size: 1rem;
-    margin-top:0;
-}
-    
-/*-----------------------------------index is over here----------------------------------------------------------*/
-
-/*-----------------------------------about me----------------------------------------------------------*/
-
-.welcome{
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: left;
-    margin-bottom: 200px;
-}
-
-
-/*-----------------------------------about me----------------------------------------------------------*/
-
-
-/*---------------------------------------for the contact me---------------------------------------------------------*/
-.contact_me{
-    position:fixed;
-    bottom:0;
-    background-color: #d2d434;
-    color:blue;
-    width: 100%;
-}
-
-.contact_me_pic{
-    height:35px; 
-    width:auto;
-    padding: 10px 20px;
-}
-
-/*------------------------------------------contact me ends here-----------------------------------------------------*/

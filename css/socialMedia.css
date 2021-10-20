@@ -1,0 +1,17 @@
+
+/*---------------------------------------for the contact me---------------------------------------------------------*/
+.socialMedia{
+    position:fixed;
+    bottom:0;
+    background-color: #d2d434;
+    color:red;
+    width: 100%;
+}
+
+.socialMediaPic{
+    height:35px; 
+    width:auto;
+    padding: 10px 20px;
+}
+
+/*------------------------------------------contact me ends here-----------------------------------------------------*/
