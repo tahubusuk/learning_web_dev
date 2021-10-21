@@ -36,11 +36,6 @@ a{
     .bigScreen{
         display:none;
     }
-    .hamburgerIcon{
-        height:3rem;
-        width: auto;
-        padding: 2.25rem 2.5rem;
-    }
     .container{
         position: absolute;
         left:65%;
@@ -55,11 +50,7 @@ a{
     .bigScreen{
         display:none;
     }
-    .hamburgerIcon{
-        height:3rem;
-        width: auto;
-        padding: 2.25rem 3rem;
-    }
+
     .container{
         position: absolute;
         left:70%;
@@ -73,11 +64,6 @@ a{
     .bigScreen{
         display:none;
     }
-    .hamburgerIcon{
-        height:3rem;
-        width: auto;
-        padding: 2.25rem 3rem;
-    }
     .container{
         position: absolute;
         left:80%;
@@ -90,11 +76,6 @@ a{
 @media screen and (min-width:992px) and (max-width:1200px) {
     .bigScreen{
         display:none;
-    }
-    .hamburgerIcon{
-        height:3rem;
-        width: auto;
-        padding: 2.25rem 3rem;
     }
     .container{
         position: absolute;
@@ -110,12 +91,7 @@ a{
         display:none;
     }
 
-    .hamburgerIcon{
-        height:3rem;
-        width: auto;
-        padding: 2.25rem 3rem;
-
-    }.container{
+    .container{
         position: absolute;
         left:80%;
         width:0;
@@ -134,7 +110,7 @@ a{
 }
 
 .container:hover {
-    background-color: #d2d434; 
+    background-color: #d2d434;
 }
 .container:hover .dropdown-content{
     display: block;
@@ -148,8 +124,19 @@ a{
     width: 9.75rem;
 }
 .hamburgerIcon{
+    height:3rem;
+    width: auto;
+    padding: 2.25rem 3rem;
     z-index: 1;
 }
+
+.crossIcon{
+    height:3rem;
+    width: auto;
+    padding: 2.25rem 3rem;
+    display: none;
+}
+
 .dropdown-content{
     display:none;
     position:relative;

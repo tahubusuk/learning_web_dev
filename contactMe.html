@@ -7,27 +7,29 @@
     <link rel ="shortcut icon" href="favicon.ico" type ="image/x-icon">
     <link rel= "icon" href="favicon.ico" type ="image/x-icon">
     <title> Tahubusuk</title>
-    <link rel= "stylesheet" href="css/style.css">
+    <link rel= "stylesheet" href="css/navbar.css">
+    <link rel= "stylesheet" href="css/contactMe.css">
+    <link rel= "stylesheet" href="css/socialMedia.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap" rel="stylesheet">         
 </head>
 <body>
 
-<nav class="small_screen">
+<nav class="smallScreen">
     <div class="container">
         <div class="dropdown">
-            <img class="hamburger_icon" src="images/hamburger_icon.png">
+            <img class="hamburgerIcon" src="images/hamburger_icon.png">
+            <img class="crossIcon" src="images/img_28217.png">
         </div>
-                   
-         <div class="dropdown-content">
-             <div class="content">
+        <div class="dropdown-content">
+            <div class="content">
                 <a href="aboutMe.html"> <strong>About me</strong></a>
             </div>
             <div class ="content">
                 <a href="projects.html"> <strong>Projects</strong></a>
             </div>
-             <div class ="content">
+            <div class ="content">
                 <a href="blogs.html"> <strong>Blogs</strong></a>
             </div>
             <div class ="content">
@@ -44,24 +46,55 @@
         </li>
     </ul>
 </nav>
-<nav class="big_screen">
+<nav class="bigScreen">
     <ul>
-        <li class="aboutme">
+        <li class="aboutMe">
             <a href="aboutMe.html"><strong> About me</strong></a>
         </li>
         <li class= "projects">
             <a href="projects.html"><strong>Projects</strong></a>
         </li>
-       <li class="blogs">
+        <li class="blogs">
             <a href="blogs.html"><strong>Blogs</strong></a>
         </li>
-        <li class= "contactme">
+        <li class= "contactMe">
             <a href="contactMe.html"><strong>Contact me</strong></a>
         </li>
     </ul>
 </nav>
 
-    <h1> Welcome! It's still empty tho. Wait for an update !</h1>
-    
+    <div class="contactMeBlock">
+        <p>
+            Let's talk and connect! <br>
+        </p>
+        <form action="gatauisiapa" method="post">
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                </li>
+                <li>
+                    <input type="text" id="name" name="name">
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+                </li>
+                <li>
+                    <input type="email" id="email" name="email">
+                </li>
+                <li>
+                    <label for="message">Message:</label>
+                </li>
+                <li>
+                    <textarea id="message" name="message"></textarea>
+                </li>
+                <p class="button">
+                <button><p class="submit">Submit</p></button>
+                </p>
+            </ul>
+        </form>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="navbar.js" charset="UTF-8"></script>
 </body>
 </html>

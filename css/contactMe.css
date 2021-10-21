@@ -1,0 +1,42 @@
+.contactMeBlock {
+    width: 80%;
+    position:absolute;
+    left:10%;
+    top:10rem;
+    height:40rem;
+    color: white;
+}
+p {
+    font-size: 2rem;
+}
+form {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 1.75;
+}
+input, textarea {
+    font: 1rem serif;
+    width: 90%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+ul {
+    padding-left: 0.5rem;
+    list-style: none;
+}
+button {
+    width: 10rem;
+    height: 4rem;
+    border-radius: 20px;
+    background-color: #d2d434;
+    border-color: #d2d434;
+}
+.button {
+    margin: 1rem;
+    text-align: center;
+}
+.submit {
+    font-size: 1rem;
+    font-family: Serif;
+    font-weight: bold;
+}
